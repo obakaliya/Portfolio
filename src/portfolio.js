@@ -37,6 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/uvaishbakaliya/",
   gmail: "uvaishbakaliya@gmail.com",
   stackoverflow: "https://stackoverflow.com/",
+  twitter: "https://twitter.com/bigbakaliya001",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -170,17 +171,6 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Engineer",
-    //   company: "Facebook",
-    //   companylogo: require("./assets/images/facebookLogo.png"),
-    //   date: "June 2018 – Present",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-    //   ]
-    // },
     {
       role: "Software Engineer Intern",
       company: "Flowtech",
@@ -255,18 +245,18 @@ const achievementSection = {
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
-        // {
-        //   name: "Certification",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        // },
-        // {
-        //   name: "Award Letter",
-        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-        // {
-        //   name: "Google Code-in Blog",
-        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        }
       ]
     },
     {
@@ -276,10 +266,10 @@ const achievementSection = {
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        // {
-        //   name: "View Google Assistant Action",
-        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        // }
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
       ]
     },
 
@@ -289,11 +279,11 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        // {name: "Certification", url: ""},
-        // {
-        //   name: "Final Project",
-        //   url: "https://pakistan-olx-1.firebaseapp.com/"
-        // }
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
       ]
     }
   ],
@@ -360,18 +350,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+17739779853",
+  email_address: "uvaishbakaliya@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "bigbakaliya001", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
