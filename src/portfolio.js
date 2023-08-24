@@ -176,14 +176,14 @@ const workExperiences = {
       company: "Flowtech",
       companylogo: require("./assets/images/flowtech.png"),
       date: "Jun 2023 – August 2023",
-      desc: "My internship at Flowtech Solutions was a tech odyssey. Working on real projects, I harnessed cutting-edge web technologies like React and JavaScript. Mentored by pros, I gained practical skills, adapted to challenges, and paved the way for a bright software engineering future."
+      desc: "Throughout the internship at Flowtech, an engaging exploration of technology unfolded. In the context of tangible projects, adept utilization of cutting-edge web technologies, notably centered around React and Node.js, became a prominent feature. Under the guidance of experienced practitioners, acquisition of not only practical proficiencies but also adept navigation of multifarious challenges took place. Collaborating seamlessly within a cross-disciplinary team, a contribution was made to the development of a responsive mobile application interface complementary to the pre-existing web ecosystem."
     },
     {
       role: "JP Morgan Software Engineering Virtual Experience",
       company: "JP Morgan",
       companylogo: require("./assets/images/jpmorgan.jpeg"),
       date: "Jun 2022 – Jully 2022",
-      desc: "My J.P. Morgan Chase software engineering internship was a transformative journey. From real-world challenges to practical skill application, I immersed myself in diverse tech initiatives. Working with Python, Git, React, and TypeScript, I crafted impactful solutions, visualizing data for trading dashboards. Collaborating globally, I contributed to open-source projects, gaining mentorship and a completion certificate. This experience fortified my skills and confidence, propelling me toward a promising career."
+      desc: "The software engineering internship at J.P. Morgan Chase proved transformative. Engaging real-world challenges, the experience facilitated practical skill application across diverse tech projects. Proficiency in Python, Git, React, and TypeScript enabled the creation of impactful solutions, visualizing trading dashboard data. Collaboration on a global scale contributed to open-source projects, offering valuable mentorship and a completion certificate. This encounter bolstered skills and confidence, propelling towards a promising career trajectory."
     }
   ]
 };
@@ -241,22 +241,22 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
@@ -266,10 +266,10 @@ const achievementSection = {
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
       ]
     },
 
@@ -279,11 +279,11 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {name: "Certification", url: ""},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
@@ -350,7 +350,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+17739779853",
+  number: "+0000000000",
   email_address: "uvaishbakaliya@gmail.com"
 };
 
