@@ -171,13 +171,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer Intern",
-      company: "Flowtech",
-      companylogo: require("./assets/images/flowtech.png"),
-      date: "Jun 2023 – August 2023",
-      desc: "Throughout the internship at Flowtech, an engaging exploration of technology unfolded. In the context of tangible projects, adept utilization of cutting-edge web technologies, notably centered around React and Node.js, became a prominent feature. Under the guidance of experienced practitioners, acquisition of not only practical proficiencies but also adept navigation of multifarious challenges took place. Collaborating seamlessly within a cross-disciplinary team, a contribution was made to the development of a responsive mobile application interface complementary to the pre-existing web ecosystem."
-    },
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Flowtech",
+    //   companylogo: require("./assets/images/flowtech.png"),
+    //   date: "Jun 2023 – August 2023",
+    //   desc: "Throughout the internship at Flowtech, an engaging exploration of technology unfolded. In the context of tangible projects, adept utilization of cutting-edge web technologies, notably centered around React and Node.js, became a prominent feature. Under the guidance of experienced practitioners, acquisition of not only practical proficiencies but also adept navigation of multifarious challenges took place. Collaborating seamlessly within a cross-disciplinary team, a contribution was made to the development of a responsive mobile application interface complementary to the pre-existing web ecosystem."
+    // },
     {
       role: "JP Morgan Software Engineering Virtual Experience",
       company: "JP Morgan",
