@@ -47,7 +47,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "ENTHUSIASTIC SOFTWARE ENGINEER WITH A PASSION FOR EXPLORING A DIVERSE RANGE OF TECH STACKS",
+  subTitle:
+    "ENTHUSIASTIC SOFTWARE ENGINEER WITH A PASSION FOR EXPLORING A DIVERSE RANGE OF TECH STACKS",
   skills: [
     emoji(
       "⚡ Develop highly interactive Frontend and Backend / User Interfaces for your web and desktop applications"
@@ -121,7 +122,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "github",
       fontAwesomeClassname: "fab fa-github"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -141,7 +142,7 @@ const educationInfo = {
         "Showcased a remarkable ability to ideate, collaborate, and execute under time constraints, a crucial skill in hackathon environments",
         "Set a remarkable record by achieving an unprecedented hat-trick of wins, highlighting dedication and excellence"
       ]
-    },
+    }
   ]
 };
 
@@ -171,19 +172,26 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Flowtech",
-    //   companylogo: require("./assets/images/flowtech.png"),
-    //   date: "Jun 2023 – August 2023",
-    //   desc: "Throughout the internship at Flowtech, an engaging exploration of technology unfolded. In the context of tangible projects, adept utilization of cutting-edge web technologies, notably centered around React and Node.js, became a prominent feature. Under the guidance of experienced practitioners, acquisition of not only practical proficiencies but also adept navigation of multifarious challenges took place. Collaborating seamlessly within a cross-disciplinary team, a contribution was made to the development of a responsive mobile application interface complementary to the pre-existing web ecosystem."
-    // },
+    {
+      role: "Software Engineering Intern",
+      company: "PwC",
+      companylogo: require("./assets/images/pwc.png"),
+      date: "Jun 2024 – Aug 2024",
+      desc: "Developed and maintained single SPA applications using React.js, Angular, and TypeScript, ensuring seamless user interaction and experience. Collaborated with cross-functional teams to design and implement new features, enhancing application functionality and performance. Conducted code reviews and implemented best practices to ensure code quality and maintainability, optimizing application performance and user experience."
+    },
+    {
+      role: "Full Stack Developer",
+      company: "UIC - College of Engineering Administration",
+      companylogo: require("./assets/images/University_of_Illinois_at_Chicago_circle_logo.svg.png"),
+      date: "Oct 2023 – Jun 2024",
+      desc: "Developed a full stack application specifically for the College of Engineering faculty and staff, significantly enhancing their user experience. Integrated new features into an existing application, using comprehensive full stack frameworks to ensure seamless functionality and user interaction. Implemented robust security measures by incorporating Shibboleth SSO and JWT for secure authentication and authorization, prioritizing data protection and user privacy."
+    },
     {
       role: "JP Morgan Software Engineering Virtual Experience",
       company: "JP Morgan",
       companylogo: require("./assets/images/jpmorgan.jpeg"),
       date: "Jun 2022 – Jully 2022",
-      desc: "The software engineering internship at J.P. Morgan Chase proved transformative. Engaging real-world challenges, the experience facilitated practical skill application across diverse tech projects. Proficiency in Python, Git, React, and TypeScript enabled the creation of impactful solutions, visualizing trading dashboard data. Collaboration on a global scale contributed to open-source projects, offering valuable mentorship and a completion certificate. This encounter bolstered skills and confidence, propelling towards a promising career trajectory."
+      desc: "The software engineering internship at J.P. Morgan Chase was transformative. I applied skills in Python, Git, React, and TypeScript to solve real-world challenges, like visualizing trading dashboard data. Global collaboration on open-source projects and valuable mentorship culminated in a completion certificate, enhancing my skills and confidence for a promising career ahead."
     }
   ]
 };
@@ -200,12 +208,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "HERE ARE FEW PERSONAL PROJECTS I'VE CRAFTED DURING MY SPARE TIME, AIMING TO ENHANCE MY OWN LIFE WHILE SIMULTANEOUSLY CONTRIBUTING TO THE WELLBEING OF OTHERS.",
+  subtitle:
+    "HERE ARE FEW PERSONAL PROJECTS I'VE CRAFTED DURING MY SPARE TIME, AIMING TO ENHANCE MY OWN LIFE WHILE SIMULTANEOUSLY CONTRIBUTING TO THE WELLBEING OF OTHERS.",
   projects: [
     {
       image: require("./assets/images/JobFit-Analyzer-Logo.png"),
       projectName: "JobFit Analyzer",
-      projectDesc: "JobFit-Analyzer is a web application that helps job seekers analyze their resumes against job descriptions, providing a suggestion and a percentage match to show how well their resume aligns with the specific job they are interested in. The application is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) and utilizes JSON Web Tokens (JWT) for user authentication.",
+      projectDesc:
+        "JobFit-Analyzer is a web application that helps job seekers analyze their resumes against job descriptions, providing a suggestion and a percentage match to show how well their resume aligns with the specific job they are interested in. The application is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) and utilizes JSON Web Tokens (JWT) for user authentication.",
       footerLink: [
         {
           name: "Visit Website",
@@ -217,7 +227,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Mini-Search-Engine.png"),
       projectName: "Mini Search Engine",
-      projectDesc: "A program that can search for queries and provide relevant URLs is a useful tool for finding information on the internet. This type of program, also known as a search engine, allows users to enter a query using keywords, phrases, or other search terms, and provides a list of relevant URLs that match the query.",
+      projectDesc:
+        "A program that can search for queries and provide relevant URLs is a useful tool for finding information on the internet. This type of program, also known as a search engine, allows users to enter a query using keywords, phrases, or other search terms, and provides a list of relevant URLs that match the query.",
       footerLink: [
         {
           name: "Configuration Details",
