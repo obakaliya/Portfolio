@@ -44,7 +44,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
-To view a live example, **[click here](https://uvaishbakaliya.netlify.app/)**.
+To view a live example, **[click here](https://owaisbakaliya.netlify.app/)**.
 
 
 ## Getting Started
@@ -157,7 +157,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Saad",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1aeVQTsUpypOb5y9intyeYZUt3lwvbrE6/view?usp=sharing"
 };
 
 const socialMediaLinks = {

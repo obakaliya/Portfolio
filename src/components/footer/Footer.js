@@ -10,7 +10,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-        &copy; {new Date().getFullYear()} Uvaish Bakaliya. All Rights Reserved.
+        &copy; {new Date().getFullYear()} Owais Bakaliya. All Rights Reserved.
         </p>
       </div>
     </Fade>

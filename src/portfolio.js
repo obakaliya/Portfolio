@@ -20,24 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Uviash Bakaliya",
-  title: "Hi all, I'm Uvaish",
+  username: "Owais Bakaliya",
+  title: "Hi all, I'm Owais",
   subTitle: emoji(
     "A passionate Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1rzVZq3_R3klvKtzBLvu1MmGUqje5zOKg/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1aeVQTsUpypOb5y9intyeYZUt3lwvbrE6/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/UBakaliya",
-  linkedin: "https://www.linkedin.com/in/uvaishbakaliya/",
-  gmail: "uvaishbakaliya@gmail.com",
+  github: "https://github.com/obakaliya",
+  linkedin: "https://www.linkedin.com/in/owaisbakaliya/",
+  gmail: "owaisbakaliya@gmail.com",
   stackoverflow: "https://stackoverflow.com/",
-  twitter: "https://twitter.com/bigbakaliya001",
+  twitter: "https://x.com/Owais_Bakaliya",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -361,8 +361,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+0000000000",
-  email_address: "uvaishbakaliya@gmail.com"
+  // number: "+0000000000",
+  email_address: "owaisbakaliya@gmail.com"
 };
 
 // Twitter Section
